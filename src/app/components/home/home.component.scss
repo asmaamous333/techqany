@@ -1,0 +1,238 @@
+$font-family:IBM Plex Sans;
+$font-color:#F1F1F1;
+$color1:#DD6E5B ;
+$color2: #CE5B79;
+
+
+
+.slider{
+    background-color: #1F1F1F;
+    position: relative;
+    padding-bottom: 139px;
+
+}
+.button{
+    background-color: #CE5B79;
+    background-image: linear-gradient(
+        to left,$color1,$color2
+    );
+    font-family: $font-family ;
+    font-size: 20px;
+    font-weight:bold;
+    color:$font-color;
+    width: 158px;
+    height: 60px;
+
+}
+
+.header{
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 60px;
+    font-weight: bold;
+    height: 220px;
+
+
+}
+.text{
+    font-family: $font-family;
+    font-size: 20px;
+    color: $font-color;
+    font-weight: 400;
+
+
+}
+
+.img{
+    width: 632px;
+    height: 755px;
+    position: absolute;
+    bottom: 0px;
+    top: -24px
+}
+.background{
+    background-image: url();
+}
+.show-more{
+    font-family: IBM Plex Sans Arabic;
+    font-size: 16px;
+    font-weight: Bold;
+}
+
+.products{
+    font-family: IBM Plex Sans Arabic;
+   font-size:32px;
+   font-weight: Bold;
+   color:#1F1F1F;
+}
+.card-img{
+    max-width: 100%;
+    width: 124px;
+    height: 162px;
+
+}
+.card{
+    max-width: 100%;
+    width: 312px;
+    height: 434px;
+    border-radius: 5px;
+}
+.card-body{
+    max-width: 100%;
+    width: 185px;
+}
+
+.card-text{
+    font-size: 20px;
+    font-family: $font-family;
+}
+
+.category-card{
+    background-color: #1F1F1F;
+    width:200px;
+    height: 200px;
+    border-radius: 32px;
+}
+.category-text{
+    color:#FFFFFF;
+    font-family: $font-family;
+    font-size: 16px;
+}
+.products-types{
+    font-family: $font-family;
+    font-size: 20px;
+    font-weight: normal;
+}
+.background-image{
+    background-image: linear-gradient(
+        to right, #B876FF,
+        #5081FC
+       , #00FFAF
+    );
+    border-radius: 24px;
+}
+
+.panel-header{
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.panel-text{
+    font-weight: normal;
+    font-size: 16px;
+    color:$font-color;
+    font-weight: normal;
+
+}
+.panel-content{
+    width: 335px;
+    height: 258.57px;
+    
+}
+
+.second-panal-content{
+    width:282px;
+    height: 251.98px;
+}
+
+.second-panel-header{
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 40px;
+    font-weight: bold;
+}
+.panel-price{
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.background-color{
+    background-image: linear-gradient(
+        to right , #E92E2E,
+        #B4208F,
+        #8612E1
+    );
+    border-radius: 48px;
+}
+.icon-text {
+    
+    background-color: #FFFFFF;
+    color:$font-color;
+}
+.rounded-row{
+    border-radius: 28px;
+}
+
+.light-gray-background{
+   background-color: rgba($color: #FFFFFF, $alpha: 0.3);
+   padding:70px;
+}
+.white-background{
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    padding:20px;
+}
+.icon{
+    background-color: rgba($color: #FFFFFF, $alpha: 0.4);
+    border-radius: 10px;
+
+}
+
+.need-help{
+    font-family: $font-color;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+.need-help-btn{
+border-radius: 6px;
+background-color: #1F1F1F;
+color:$font-color;
+font-weight: bold;
+font-size: 16px;
+width: 149px;
+height: 48px;
+
+}
+.need-help-text{
+    font-size: 16px;
+    font-family: $font-family;
+    font-weight: normal;
+    width: 413px;
+    height: 89px;
+}
+.background-cyan{
+    @extend .background-image;
+    height: 324px;
+}
+.last-img{
+   background-image:  url('../../../assets/img/home icons/Group 25034.svg');
+   background-repeat: no-repeat;
+   margin-top: -94px;
+   background-position: center;
+
+}
+
+.google-apple{
+    width:120px;
+    
+}
+.content{
+    width: 185px;
+    height: 90px;
+}
+.content-text{
+    font-family: $font-family;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+

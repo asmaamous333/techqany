@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #130f26;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_19832" data-name="Group 19832" transform="translate(-319 -398)">
+    <rect id="Rectangle_5042" data-name="Rectangle 5042" class="cls-1" width="24" height="24" transform="translate(319 398)"/>
+    <g id="Group_19831" data-name="Group 19831" transform="translate(319 398)">
+      <g id="Group_19829" data-name="Group 19829" transform="translate(4 14.697)">
+        <path id="Path_2043" data-name="Path 2043" class="cls-2" d="M12,16c-4.3,0-6.486.732-6.486,2.177S7.7,20.37,12,20.37s6.484-.732,6.484-2.177S16.3,16,12,16Zm0,5.874c-1.979,0-8,0-8-3.7,0-3.3,4.567-3.677,8-3.677,1.979,0,8,0,8,3.7C20,21.489,15.434,21.87,12,21.87Z" transform="translate(-4 -14.496)"/>
+      </g>
+      <g id="Group_19830" data-name="Group 19830" transform="translate(6.69 2)">
+        <path id="Path_2044" data-name="Path 2044" class="cls-2" d="M11.921,3.428A3.882,3.882,0,1,0,15.8,7.31,3.887,3.887,0,0,0,11.921,3.428Zm0,9.191h-.032a5.325,5.325,0,1,1,.032,0Z" transform="translate(-6.61 -2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

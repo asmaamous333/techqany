@@ -1,0 +1,33 @@
+$font-family:IBM Plex Sans;
+$font-color:#1F1F1F;
+
+
+
+
+.status{
+ 
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+.header{
+
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.clear{
+    font-family: $font-family;
+    color: #FC5F67;
+    font-weight: bold;
+}
+.time{
+    font-size: 16px;
+    color:$font-color;
+    font-weight:Regular;
+}

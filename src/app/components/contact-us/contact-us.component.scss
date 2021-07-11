@@ -1,0 +1,32 @@
+$color5:#DD6E5B ;
+$color6: #CE5B79;
+$font-family:IBM Plex Sans;
+
+.send{
+    background-color: #CE5B79;
+    background-image: linear-gradient(
+        to right,$color5,$color6
+    );
+    font-family: $font-family ;
+    font-size: 16px;
+    font-style:bold;
+}
+.v1{
+    border-left: 1px solid #1F1F1F;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    
+}
+
+.label{
+font-family: $font-family;
+font-size: 10px ;
+color:#EB6F5A;
+font-weight: medium;
+
+}
+.form{
+    margin-left:40px;
+}

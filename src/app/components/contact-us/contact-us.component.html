@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="row mt-3">
+    <div class=" col-sm-12 col-md-12 col-lg-6 p-5">
+      <div class="v1 d-lg-block d-sm-none mt-5"></div>
+      <div class="d-flex justify-content-center w-100 form">
+        <form [formGroup]="contactForm" (ngSubmit)="send(contactForm.value)">
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend w-100 d-flex align-items-left">
+              <span class="input-group-text" id="basic-addon1">
+                <img src="../../../assets/img/Group 19832.svg" alt="">
+              </span>
+              <div class="form-floating w-100 ">
+                <input type="text" class="form-control " aria-label="name" placeholder="Name" id="floatingInput"
+                  formControlName="name" aria-describedby="basic-addon1" >
+                <label for="floatingInput" class="label">Full name</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend w-100 d-flex align-items-left">
+              <span class="input-group-text" id="basic-addon1">
+                <img src="../../../assets/img/Group 19851.svg" alt="">
+              </span>
+              <input type="text" class="form-control" aria-label="email" placeholder="Type your Email here"
+                formControlName="email" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend d-flex align-items-left w-100">
+              <span class="input-group-text" id="basic-addon1">
+                <img src="../../../assets/img/Group 24830.svg" alt="">
+              </span>
+              <div class="form-floating w-100 ">
+                <input type="text-area" class="form-control" aria-label="phoneNumber" placeholder="Phone number"
+                  formControlName="phoneNumber" aria-describedby="basic-addon1">
+                <label for="floatingInput" class="label">Phone number</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend w-100  d-flex align-items-center">
+              <span class="input-group-text align-items-center justify-content-center h-100" id="basic-addon1">
+                <img src="../../../assets/img/Group 19873.svg" alt="">
+              </span>
+              <div class="form-floating">
+                <textarea cols="30" rows="5" class="form-control h-100" placeholder="Message" aria-label="message" formControlName="message"
+                  aria-describedby="basic-addon1"></textarea>
+                  <label for="floatingInput" class="label">Message</label>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary w-100 send p-3 text-bold border-0 rounded-top"
+              data-toggle="button" >
+              Send
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+    <div class="col-6 p-5 d-sm-none d-lg-block">
+      <img src="../../../assets/img/Mask Group 17.svg">
+    </div>
+  </div>
+</div>
+
+

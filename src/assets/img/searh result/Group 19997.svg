@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_19997" data-name="Group 19997" transform="translate(-1564 -35)">
+    <rect id="Rectangle_5086" data-name="Rectangle 5086" width="48" height="48" rx="24" transform="translate(1564 35)" fill="#1f1f1f" opacity="0.1"/>
+    <g id="Group_19951" data-name="Group 19951">
+      <rect id="Rectangle_5090" data-name="Rectangle 5090" width="24" height="24" transform="translate(1576 47)" fill="none"/>
+      <g id="Group_19958" data-name="Group 19958" transform="translate(1576.207 46.639)">
+        <g id="Group_19957" data-name="Group 19957">
+          <path id="Path_68265" data-name="Path 68265" d="M6.716,8.04c-.441,0-1.915.178-2.338,2.462l-.772,6c-.251,1.683-.057,2.9.578,3.638s1.749,1.082,3.429,1.082H15.96A4.389,4.389,0,0,0,19.3,20.015a4.256,4.256,0,0,0,.7-3.5l-.779-6.052C18.895,8.97,18.018,8.04,16.895,8.04ZM15.96,22.722H7.613c-2.143,0-3.636-.525-4.565-1.6S1.8,18.413,2.121,16.3L2.9,10.269C3.407,7.506,5.272,6.54,6.716,6.54H16.895c1.45,0,3.213.963,3.808,3.664l.789,6.107A5.651,5.651,0,0,1,20.438,21,5.7,5.7,0,0,1,15.96,22.722Z" fill="#1f1f1f" fill-rule="evenodd"/>
+        </g>
+        <path id="Path_68266" data-name="Path 68266" d="M16.1,7.82a.75.75,0,0,1-.75-.75,3.574,3.574,0,0,0-3.57-3.57h-.015A3.57,3.57,0,0,0,8.189,7.07a.75.75,0,1,1-1.5,0A5.068,5.068,0,0,1,11.76,2h.021a5.075,5.075,0,0,1,5.067,5.07A.75.75,0,0,1,16.1,7.82Z" fill="#1f1f1f" fill-rule="evenodd" opacity="0.6"/>
+        <path id="Path_68267" data-name="Path 68267" d="M14.743,12.324H14.7a.75.75,0,0,1,0-1.5.77.77,0,0,1,.773.75A.731.731,0,0,1,14.743,12.324Z" fill="#1f1f1f" fill-rule="evenodd" opacity="0.6"/>
+        <path id="Path_68268" data-name="Path 68268" d="M8.912,12.324H8.867a.75.75,0,0,1,0-1.5.77.77,0,0,1,.773.75A.732.732,0,0,1,8.912,12.324Z" fill="#1f1f1f" fill-rule="evenodd" opacity="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

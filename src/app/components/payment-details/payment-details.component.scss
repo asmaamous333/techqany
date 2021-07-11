@@ -1,0 +1,30 @@
+$font-family:IBM Plex Sans;
+$font-color:#1D1D1B;
+
+
+
+.text{
+    font-family: $font-family;
+    color: $font-color;
+    font-weight: bold;
+}
+.chechbox{
+    margin-top: 80px;
+}
+hr{
+    color: #1F1F1F;
+}
+.text2{
+    font-family: $font-family;
+}
+
+.payNow{
+    background-image: linear-gradient(
+        to right ,#DD6E5B 
+    , #CE5B79);
+    font-family: $font-family;
+    border-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}

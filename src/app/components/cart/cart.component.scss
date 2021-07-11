@@ -1,0 +1,81 @@
+// $font-family: IBM Plex Sans;
+
+
+// .header{
+//     font-family: $font-family;
+//     font-size: 32px;
+//     font-weight: bold;
+// }
+
+// .table-header{
+//     font-size: 16px;
+//     font-weight: normal;
+//     font-family: $font-family;
+// }
+
+// .product-desc{
+//     font-family: $font-family;
+//     font-size: 16px;
+//     font-weight: bold;
+
+// }
+// .quantity{
+//      background-color: rgb(194, 189, 189);
+    
+//      border-radius: 4px;
+// }
+
+// .price{
+//     font-weight: normal;
+//     font-size: 20px;
+//     font-family: $font-family;
+// }
+// .total-price{
+//     font-family: $font-family;
+//     font-weight: bold;
+//     font-size: 20px;
+// }
+
+// .quanitity-font{
+//     color:#1F1F1F;
+//     font-size: 20px;
+//     font-weight: normal;
+// }
+// .img{
+//     max-width: 100%;
+// }
+
+
+.cart {
+    margin: 50px 0;
+    &__header{
+        font-size: 32px;
+    }
+    &__product{
+        &--img{
+            max-width: 150px;
+            width: 100%;
+            object-fit: contain;
+        }
+        &--title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        &--quantity{
+            background-color: #c2c2c2;
+            color:#1F1F1F;
+            border: none;
+            font-size: 20px;
+            font-weight: normal;
+        }
+        &--price{
+            font-size: 20px;
+            font-weight: normal;
+        }
+        &--table-header{
+            
+        }
+
+    }
+
+}

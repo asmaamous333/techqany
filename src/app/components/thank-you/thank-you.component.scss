@@ -1,0 +1,27 @@
+$font-family:IBM Plex Sans;
+$font-size:48px;
+$font-weight:Bold;
+
+
+.title{
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+.text{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: Regular;
+    text-align: center;
+}
+.header{
+    align-content: center;
+     height: 75vh;
+  
+}
+
+.img{
+    position: absolute;
+    right: 3px;
+    bottom: 0;
+}

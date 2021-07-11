@@ -1,0 +1,43 @@
+$font-family:IBM Plex Sans;
+
+.header{
+    font-size: 32px;
+    font-family: $font-family;
+    font-weight: bold;
+}
+.filter-text{
+    font-size: 20px;
+    font-family: $font-family;
+    font-weight: normal;
+    color:#1F1F1F;
+}
+.card-img{
+    max-width: 100%;
+    width:116px;
+    height: 161px;
+
+}
+.card{
+    max-width: 100%;
+    width: 312px;
+    height: 434px;
+    border-radius: 5px;
+}
+.card-body{
+    max-width: 100%;
+    width: 200px;
+}
+
+.card-text{
+    font-size: 20px;
+    font-family: $font-family;
+}
+.card-img:hover{
+    position: relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+     z-index:999;
+}

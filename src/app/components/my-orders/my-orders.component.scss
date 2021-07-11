@@ -1,0 +1,37 @@
+$font-family:IBM Plex Sans;
+
+.header {
+  font-size: 32px;
+  font-family: $font-family;
+  font-weight: bold;
+}
+
+.delivered {
+  font-family: $font-family;
+  color: #58E8B1;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shipment {
+  font-family: $font-family;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.cancelled{
+    @extend .delivered;
+    color:#FF2F3A;
+
+}
+
+.in-progress{
+    @extend .delivered;
+    color:#FCA75F;
+}
+.text{
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 16px;
+}
