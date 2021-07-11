@@ -3,9 +3,10 @@
     <div class="row">
       <div class="col-lg-9 col-12">
         <div class="header my-5">CONTACT DETAILS</div>
-        <div class="">
-            <div class="input-group mb-3 input-border">
-                <div class="input-group-prepend w-50 d-flex align-items-left">
+       
+            <form [formGroup]="shippingForm">
+              <div class="input-group mb-3 w-50 ">
+                <div class="input-group-prepend  d-flex justify-content-center">
                   <span class="input-group-text" id="basic-addon1">
                     <img src="../../../assets/img/Group 19832.svg" alt="">
                   </span>
@@ -17,8 +18,8 @@
                 </div>
               </div>
 
-              <div class="input-group mb-3">
-                <div class="input-group-prepend w-50 d-flex align-items-left">
+              <div class="input-group mb-3 w-50 ">
+                <div class="input-group-prepend d-flex justify-content-center">
                   <span class="input-group-text" id="basic-addon1">
                     <img src="../../../assets/img/Group 19851.svg" alt="">
                   </span>
@@ -27,12 +28,12 @@
                 </div>
               </div>
 
-              <div class="input-group mb-3">
-                <div class="input-group-prepend d-flex justify-content-center w-50">
+              <div class="input-group mb-3 w-50">
+                <div class="input-group-prepend d-flex justify-content-center">
                   <span class="input-group-text" id="basic-addon1">
                     <img src="../../../assets/img/Group 24830.svg" alt="">
                   </span>
-                  <div class="form-floating w-100">
+                  <div class="form-floating">
                     <input type="text-area" class="form-control" aria-label="phoneNumber" placeholder="Phone number"
                       formControlName="phoneNumber" aria-describedby="basic-addon1">
                     <label for="floatingInput" class="label">Phone number</label>
@@ -42,7 +43,50 @@
                   </span>
                 </div>
               </div>
+            </form>
+
+        <hr class="my-5">
+       <div class="d-flex justify-content-between align-items-center">
+        <div class="header">Address DETAILS</div>
+        <div class=" fw-bold h6">+ Add New Address</div>
+       </div>
+       <div class="my-5">
+        <div class="d-flex justify-content-between align-items-center border-blue px-5 py-2">
+          <div class="">
+            <div class="form-check my-5">
+             
+              <label class="form-check-label label" for="flexRadioDefault1">
+               Home
+              </label>
+              <div class="">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <div class="name">Joe Doe</div>
+                <div class="address">38473 Lorem ipsum doler cumul trommel truca betyul stori.</div>
+                <div class="">Cairo , Maadi</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="fw-bold h6 text-end">Show Details</div>
         </div>
+       <div class="px-5 py-2">
+        <div class="form-check my-5">
+          <label class="form-check-label label" for="flexRadioDefault2">
+            Home
+          </label>
+          <div class="">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <div class="name">Joe Doe</div>
+            <div class="address">38473 Lorem ipsum doler cumul trommel truca betyul stori.</div>
+            <div class="">Cairo , Maadi</div>
+
+          </div>
+        </div>
+       </div>
+       </div>
+    </div>
+    <div class="col-12 col-lg-3 my-5">
+      <app-order-summary></app-order-summary>
     </div>
     </div>
   </div>
