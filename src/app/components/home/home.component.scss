@@ -11,7 +11,7 @@ $color2: #CE5B79;
     padding-bottom: 139px;
 
 }
-.button{
+.sub-button{
     background-color: #CE5B79;
     background-image: linear-gradient(
         to left,$color1,$color2
@@ -20,9 +20,10 @@ $color2: #CE5B79;
     font-size: 20px;
     font-weight:bold;
     color:$font-color;
-    width: 158px;
+    width: 124px;
     height: 60px;
-
+    border-radius: 12px;
+   
 }
 
 .header{
@@ -157,6 +158,8 @@ $color2: #CE5B79;
         #8612E1
     );
     border-radius: 48px;
+    width:1320px;
+    height: 324px;
 }
 .icon-text {
     
@@ -169,12 +172,15 @@ $color2: #CE5B79;
 
 .light-gray-background{
    background-color: rgba($color: #FFFFFF, $alpha: 0.3);
-   padding:70px;
+   border-top-left-radius: 28px;
+   border-bottom-left-radius: 28px;
+  
 }
 .white-background{
     background-color: #FFFFFF;
-    border-radius: 28px;
-    padding:20px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+   
 }
 .icon{
     background-color: rgba($color: #FFFFFF, $alpha: 0.4);
@@ -233,6 +239,17 @@ height: 48px;
     font-weight: normal;
 }
 
+.rounded-row{
+    padding:90px;
+}
 
+.input{
+    width: 272px;
+    height: 60px;
+}
 
-
+.button{
+      @extend .sub-button;
+    border-radius: 6px;
+    width: 158px;
+}

@@ -1,0 +1,29 @@
+
+
+.button{
+    background-image: linear-gradient(
+        to right ,#DD6E5B 
+    , #CE5B79);
+    font-family: IBM Plex Sans;
+    border-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.header{
+    font-family: IBM Plex Sans;
+    font-weight: bold;
+    font-size: 48px;
+}
+.text{
+    font-weight: 400;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+}
+.background-image{
+    background: url("../../../assets/img/linesss.svg") no-repeat fixed right bottom;
+    background-image: url("../../../assets/img/linesss.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}

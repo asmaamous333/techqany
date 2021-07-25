@@ -1,3 +1,4 @@
+import { ThanksForPurchasingComponent } from './components/thanks-for-purchasing/thanks-for-purchasing.component';
 import { ShippingDetailsComponent } from './components/shipping-details/shipping-details.component';
 import { CartComponent } from './components/cart/cart.component';
 import { HomeComponent } from './components/home/home.component';
@@ -14,6 +15,7 @@ import { ThankYouComponent } from './components/thank-you/thank-you.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CreditDebitMethodComponent } from './components/credit-debit-method/credit-debit-method.component';
 
 const routes: Routes = [
 
@@ -30,7 +32,9 @@ const routes: Routes = [
   { path: 'wish-list', component: WishListComponent },
   { path: 'my-orders', component: MyOrdersComponent },
   {path:'cart',component:CartComponent},
-  {path:'shipping-details',component:ShippingDetailsComponent}
+  {path:'shipping-details',component:ShippingDetailsComponent},
+  {path:'credit',component:CreditDebitMethodComponent},
+  {path:'thanks-for-purchasing',component:ThanksForPurchasingComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,21 @@
+.label{
+font-family: IBM Plex Sans;
+font-size: 10px ;
+color:#EB6F5A;
+font-weight: 500;
+
+}
+.header{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mat-dialog-container {
+  border-radius: 20px;
+}
+
+::ng-deep .mat-dialog-container {
+    width: 800px;
+    border-radius: 20px;
+    height: 616px;
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { UserShippingDetailsDialogComponent } from '../user-shipping-details-dialog/user-shipping-details-dialog.component';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog :MatDialog) { }
 
   ngOnInit(): void {
+
+    
   }
+
+  openDialog(){
+
+ const dialogRef=this.dialog.open(UserShippingDetailsDialogComponent,{disableClose:true});
+
+    dialogRef.afterClosed().subscribe(result=>{
+    console.log(result)
+    })
+  }
+  
+
+  displayDropdown(event :any){
+   console.log(event);
+  }
+
 
 }

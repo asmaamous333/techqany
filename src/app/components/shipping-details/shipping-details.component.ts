@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShippingDetailsComponent implements OnInit {
  shippingForm:any;
+ isChecked:boolean=false;
   constructor(private fb:FormBuilder) { }
 
   ngOnInit(): void {

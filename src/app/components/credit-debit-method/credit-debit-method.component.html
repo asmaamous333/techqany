@@ -1,0 +1,112 @@
+<section>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-9 col-12">
+        <div class="fw-bold h4 mb-3">
+          Payment DETAILS
+        </div>
+        <div class="">
+          <div class="form-check my-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="text-start">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label label" for="flexRadioDefault1">
+                  Paypal
+                </label>
+              </div>
+              <div class="text-end"><img src="../../../assets/img/creditdebit-method/Image 9.svg" alt=""></div>
+            </div>
+            <div class="text mb-5">You will be redirected to the PayPal website when you place an order.</div>
+          </div>
+
+
+          <div class="form-check my-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="text-start">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label label" for="flexRadioDefault2">
+                  Credit/Debit Card
+                </label>
+              </div>
+              <div class="text-end"><img src="../../../assets/img/creditdebit-method/Image 11.svg" alt=""></div>
+            </div>
+          </div>
+          <div class="w-50">
+            
+            <form [formGroup]="creditCardForm">
+              <div class="input-group mb-3 w-50 ">
+                <div class="input-group-prepend d-flex justify-content-center border">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" placeholder="00 / 00"
+                      formControlName="cardNum" aria-describedby="basic-addon1">
+                    <label for="floatingInput" class="input-label">Credit Card number</label>
+                  </div>
+                  <span class="input-group-text" id="basic-addon1">
+                    <img src="../../../assets/img/creditdebit-method/mc_hrz_rev.svg" alt="">
+                  </span>
+                </div>
+              </div>
+
+              <!-- <div class="input-group mb-3 w-50 ">
+                <div class="input-group-prepend d-flex justify-content-center border">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" aria-label="phoneNumber" placeholder=""
+                      formControlName="cardNum" aria-describedby="basic-addon1">
+                    <label for="floatingInput" class="input-label">Credit Card number</label>
+                  </div>
+                  <span class="input-group-text" id="basic-addon1">
+                    <img src="../../../assets/img/creditdebit-method/mc_hrz_rev.svg" alt="">
+                  </span>
+                </div>
+              </div> -->
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="input-group mb-3 w-25 ">
+                  <div class="input-group-prepend d-flex justify-content-center border">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" placeholder="00 / 00"
+                        formControlName="cvv" aria-describedby="basic-addon1">
+                      <label for="floatingInput" class="input-label">Cvv</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="input-group mb-3 w-25 ">
+                    <div class="input-group-prepend d-flex justify-content-center border">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" aria-label="phoneNumber" placeholder=""
+                          formControlName="cvv" aria-describedby="basic-addon1">
+                        <label for="floatingInput" class="input-label">Cvv</label>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="input-group mb-3 w-25 ">
+                    <div class="input-group-prepend d-flex justify-content-center border">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" placeholder="00 / 00"
+                          formControlName="expireDate" aria-describedby="basic-addon1">
+                        <label for="floatingInput" class="input-label">Expire date</label>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="input-group mb-3 w-50">
+                <div class="input-group-prepend d-flex justify-content-center border">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" aria-label="phoneNumber" placeholder="Phone number"
+                      formControlName="cardHodlerName" aria-describedby="basic-addon1">
+                    <label for="floatingInput" class="input-label">Card holder name</label>
+                  </div>
+                </div>
+              </div>
+              <div class="text-start ms-5 mb-3"><a href="" class="text-decoration-none  text-dark">Save Card details for later</a></div>
+              <button class="btn btn-primary btn-block border-0 button w-50 p-3" routerLink="/thanks-for-purchasing">Pay now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        
+      </div>
+    </div>
+  </div>
+</section>

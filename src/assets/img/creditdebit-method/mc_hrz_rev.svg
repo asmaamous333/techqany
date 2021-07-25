@@ -1,0 +1,11 @@
+<svg id="mc_hrz_rev" xmlns="http://www.w3.org/2000/svg" width="32" height="18.366" viewBox="0 0 32 18.366">
+  <rect id="Rectangle_5246" data-name="Rectangle 5246" width="32" height="18.366" fill="none"/>
+  <g id="Group_24968" data-name="Group 24968" transform="translate(6.341 3.17)">
+    <g id="Group_24967" data-name="Group 24967">
+      <rect id="Rectangle_5247" data-name="Rectangle 5247" width="5.261" height="9.454" transform="translate(7.098 1.286)" fill="#ff5f00"/>
+      <path id="Path_166232" data-name="Path 166232" d="M198.083,276.012a6,6,0,0,1,2.3-4.727,6.013,6.013,0,1,0,0,9.454A6,6,0,0,1,198.083,276.012Z" transform="translate(-190.651 -270)" fill="#eb001b"/>
+      <path id="Path_166233" data-name="Path 166233" d="M258.626,276.012a6.012,6.012,0,0,1-9.728,4.727,6.013,6.013,0,0,0,0-9.454,6.012,6.012,0,0,1,9.728,4.727Z" transform="translate(-239.17 -270)" fill="#f79e1b"/>
+      <path id="Path_166234" data-name="Path 166234" d="M303.106,327.144v-.194h.078v-.039h-.2v.039h.078v.194Zm.386,0v-.233h-.061l-.07.161-.07-.161h-.061v.233h.043v-.176l.066.152h.045l.066-.152v.176Z" transform="translate(-284.224 -317.405)" fill="#f79e1b"/>
+    </g>
+  </g>
+</svg>

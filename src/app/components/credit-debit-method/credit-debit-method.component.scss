@@ -1,0 +1,36 @@
+.label{
+    font-family: IBM Plex Sans;
+    font-weight: bold;
+    font-size:16px;
+}
+.text{
+    font-weight: 500;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+}
+
+
+.input-label{
+
+    font-family: IBM Plex Sans;
+    font-size: 8px;
+    color:#EB6F5A;
+    font-weight: 500;
+
+
+}
+.border{
+    border: 1px solid  #5C7EF7 ;
+    border-radius: 12px;
+    
+}
+.button{
+    background-image: linear-gradient(
+        to right,#DD6E5B , #CE5B79
+    );
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+
+}
