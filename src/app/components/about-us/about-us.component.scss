@@ -40,8 +40,13 @@ $font-family:IBM Plex Sans;
     margin-left:20px;
 }
 .logo{
-    background-image:  url('../../../assets/img/Mask Group 16.svg') ;
-    background-repeat: no-repeat;
-    background-position:left ;
+    // background-image:  url('../../../assets/img/Mask Group 16.svg') ;
+    // background-repeat: no-repeat;
+    // background-position:left ;
+    position: absolute;
+
+}
+.row{
+    position: relative;
 
 }
